@@ -55,6 +55,7 @@ client.on('message' , (message) => {
 			if (J===null) {
 				message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
 				tts:false
+				})
 			}
 	}
 	if (message.content == 'lol XD') {
