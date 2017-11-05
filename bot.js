@@ -51,10 +51,11 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (message.content == '@everyone') {
-			message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
-			tts:false
-			})
+	if (message.content.toUpperCase().indexOf("@everyone") != -1) {
+			if (J===null) {
+				message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
+				tts:false
+			}
 	}
 	if (message.content == 'lol XD') {
 			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
