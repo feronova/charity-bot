@@ -52,7 +52,7 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input.indexOf('@everyone') != -1 ) {
+	if (input.indexOf('@EVERYONE') != -1 ) {
 			message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
 			tts:false
 			})
