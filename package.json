@@ -1,9 +1,8 @@
 {
   "name": "charity-bot",
-  "version": "1.0.0",
-  "description": "My own Discord bot",
+  "description": "Testing",
+  "version": "0.0.0",
   "main": "bot.js",
-  "author": "charity",
   "scripts": {
     "start": "node bot.js"
   },
