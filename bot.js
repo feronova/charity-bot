@@ -51,5 +51,10 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
+	if (message.content == '@everyone') {
+			message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
+			tts:false
+			})
+	}
 });
 client.login(process.env.BOT_TOKEN);
