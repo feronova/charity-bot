@@ -6,48 +6,48 @@ client.on('ready', () => {
 });
 
 client.on('message' , (message) => {
-	var input = message.content;
+	var input = message.content.toUpperCase();
 	if (input == '!tes') {
 			message.channel.send("tis!", {
 			tts:false
 			})
 	}
-	if (input.indexOf('tolo') != -1 ) {
+	if (input == 'TOLO' ) {
 			message.channel.send("tolo is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	if (input == 'bacot') {
+	if (input == 'BACOT') {
 			message.channel.send("ngentot", {
 			tts:false
 			})
 	}
-	if (input == 'bacod') {
+	if (input == 'BACOD') {
 			message.channel.send("ngentod", {
 			tts:false
 			})
 	}
-	if (input == 'bct') {
+	if (input == 'BCT') {
 			message.channel.send("ntot", {
 			tts:false
 			})
 	}
-	if (input == 'bcd') {
+	if (input == 'BCD') {
 			message.channel.send("ntod", {
 			tts:false
 			})
 	}
-	if (input.indexOf('gajelas') != -1 ) {
+	if (input == 'GAJELAS' ) {
 			message.channel.send("gajelas is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	if (input.indexOf('ded') != -1 ) {
+	if (input == 'DED' ) {
 			message.channel.send("ded is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	if (input == 'meanwhile') {
+	if (input == 'MEANWHILE') {
 			message.channel.send("lol is the most played game in za warudo and dicktus is the most ded game universe.", {
 			tts:false
 			})
@@ -57,7 +57,7 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input.indexOf('lol') != -1 ) {
+	if (input == 'LOL XD' ) {
 			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
 			tts:false
 			})
