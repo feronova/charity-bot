@@ -48,18 +48,17 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	//////////////////////////////////////////////////////////////////////
-	if (input.indexOf('TOLO') != -1 ) {
+	if (input == 'TOLO' ) {
 			message.channel.send("tolo is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	else if (input.indexOf('GAJELAS') != -1 ) {
+	if (input == 'GAJELAS' ) {
 			message.channel.send("gajelas is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	else if (input.indexOf('@EVERYONE') != -1 ) {
+	if (input.indexOf('@EVERYONE') != -1 ) {
 			message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
 			tts:false
 			})
