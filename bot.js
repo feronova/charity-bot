@@ -54,12 +54,12 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input.indexOf('GAJELAS') != -1 ) {
+	else if (input.indexOf('GAJELAS') != -1 ) {
 			message.channel.send("gajelas is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	if (input.indexOf('@EVERYONE') != -1 ) {
+	else if (input.indexOf('@EVERYONE') != -1 ) {
 			message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
 			tts:false
 			})
