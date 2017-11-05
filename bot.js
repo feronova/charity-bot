@@ -6,17 +6,18 @@ client.on('ready', () => {
 });
 
 client.on('message' , (message) => {
+	var input = message.content.toUpperCase();
 	if (message.content == '!tes') {
 			message.channel.send("tis!", {
 			tts:false
 			})
 	}
-	if (message.content == 'tolo') {
+	if (input.indexOf('TOLO') > -1 ) {
 			message.channel.send("tolo is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	if (message.content == 'bacot') {
+	if (input == 'BACOT') {
 			message.channel.send("ngentot", {
 			tts:false
 			})
@@ -26,47 +27,37 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (message.content == 'bct') {
+	if (input == 'BCT') {
 			message.channel.send("ntot", {
 			tts:false
 			})
 	}
-	if (message.content == 'bcd') {
+	if (input == 'BCD') {
 			message.channel.send("ntod", {
 			tts:false
 			})
 	}
-	if (message.content == 'gajelas') {
+	if (input.indexOf('GAJELAS') > -1 ) {
 			message.channel.send("gajelas is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	if (message.content == 'ded gem') {
-			message.channel.send("ded gem is **FORBIDDEN**.", {
+	if (input.indexOf('DED') > -1 ) {
+			message.channel.send("ded is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	if (message.content == 'meanwhile') {
+	if (input == 'MEANWHILE') {
 			message.channel.send("lol is the most played game in za warudo and dicktus is the most ded game universe.", {
 			tts:false
 			})
 	}
-	if (message.content.indexOf('@everyone') > -1 ) {
+	if (input.indexOf('@EVERYONE') > -1 ) {
 			message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
 			tts:false
 			})
 	}
-	if (message.content == 'lol XD') {
-			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
-			tts:false
-			})
-	}
-	if (message.content == 'LoL XD') {
-			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
-			tts:false
-			})
-	}
-	if (message.content == 'LOL XD') {
+	if (input.indexOf('LOL XD') > -1 ) {
 			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
 			tts:false
 			})
