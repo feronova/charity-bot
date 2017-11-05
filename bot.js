@@ -12,7 +12,7 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input.indexOf('tolo') > -1 ) {
+	if (input.indexOf('tolo') != -1 ) {
 			message.channel.send("tolo is **FORBIDDEN**.", {
 			tts:false
 			})
@@ -37,12 +37,12 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input.indexOf('gajelas') > -1 ) {
+	if (input.indexOf('gajelas') != -1 ) {
 			message.channel.send("gajelas is **FORBIDDEN**.", {
 			tts:false
 			})
 	}
-	if (input.indexOf('ded') > -1 ) {
+	if (input.indexOf('ded') != -1 ) {
 			message.channel.send("ded is **FORBIDDEN**.", {
 			tts:false
 			})
@@ -52,12 +52,12 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input.indexOf('@everyone') > -1 ) {
+	if (input.indexOf('@everyone') != -1 ) {
 			message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
 			tts:false
 			})
 	}
-	if (input.indexOf('lol') > -1 ) {
+	if (input.indexOf('lol') != -1 ) {
 			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
 			tts:false
 			})
