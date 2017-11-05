@@ -12,11 +12,7 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input == 'TOLO' ) {
-			message.channel.send("tolo is **FORBIDDEN**.", {
-			tts:false
-			})
-	}
+	
 	if (input == 'BACOT') {
 			message.channel.send("ngentot", {
 			tts:false
@@ -37,8 +33,8 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input == 'GAJELAS' ) {
-			message.channel.send("gajelas is **FORBIDDEN**.", {
+	if (input == 'LOL XD' ) {
+			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
 			tts:false
 			})
 	}
@@ -52,15 +48,22 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
+	//////////////////////////////////////////////////////////////////////
+	if (input.indexOf('TOLO') != -1 ) {
+			message.channel.send("tolo is **FORBIDDEN**.", {
+			tts:false
+			})
+	}
+	if (input.indexOf('GAJELAS') != -1 ) {
+			message.channel.send("gajelas is **FORBIDDEN**.", {
+			tts:false
+			})
+	}
 	if (input.indexOf('@EVERYONE') != -1 ) {
 			message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
 			tts:false
 			})
 	}
-	if (input == 'LOL XD' ) {
-			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
-			tts:false
-			})
-	}
+	
 });
 client.login(process.env.BOT_TOKEN);
