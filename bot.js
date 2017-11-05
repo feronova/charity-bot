@@ -56,5 +56,20 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
+	if (message.content == 'lol XD') {
+			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
+			tts:false
+			})
+	}
+	if (message.content == 'LoL XD') {
+			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
+			tts:false
+			})
+	}
+	if (message.content == 'LOL XD') {
+			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
+			tts:false
+			})
+	}
 });
 client.login(process.env.BOT_TOKEN);
