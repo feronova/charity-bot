@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message' , (message) => {
 	var input = message.content.toUpperCase();
-	if (input == 'wow') {
+	if (input == 'WOW') {
 			message.channel.send("Shocking truth!", {
 			tts:false
 			})
