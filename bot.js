@@ -4,7 +4,6 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('Bot is ready!');
 });
-client.User.setGame("pinDICK XD");
 client.on('message' , (message) => {
 	var input = message.content.toUpperCase();
 	if (input == 'WOW') {
@@ -66,4 +65,3 @@ client.on('message' , (message) => {
 	
 });
 client.login(process.env.BOT_TOKEN);
-
