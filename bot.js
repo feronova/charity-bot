@@ -14,27 +14,27 @@ client.on('message' , (message) => {
 	}
 	
 	if (input == 'BACOT') {
-			message.channel.send("bacot, bad word, forbidden!", {
+			message.channel.send("**bacot**, bad word, forbidden!", {
 			tts:false
 			})
 	}
 	if (input == 'BACOD') {
-			message.channel.send("bacod, bad word, forbidden!", {
+			message.channel.send("**bacod**, bad word, forbidden!", {
 			tts:false
 			})
 	}
 	if (input == 'BCT') {
-			message.channel.send("bct, bad word, forbidden!", {
+			message.channel.send("**bct**, bad word, forbidden!", {
 			tts:false
 			})
 	}
 	if (input == 'BCD') {
-			message.channel.send("bcd, bad word, forbidden!", {
+			message.channel.send("**bcd**, bad word, forbidden!", {
 			tts:false
 			})
 	}
 	if (input == 'LOL XD' ) {
-			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
+			message.channel.send("**LoL XD** = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
 			tts:false
 			})
 	}
@@ -44,12 +44,12 @@ client.on('message' , (message) => {
 			})
 	}
 	if (input == 'MEANWHILE') {
-			message.channel.send("lol is the most played game in za warudo and dicktus is the most ded game universe.", {
+			message.channel.send("*lol is the most played game in za warudo and dicktus is the most ded game universe.*", {
 			tts:false
 			})
 	}
 	if (input == 'TOLO' ) {
-			message.channel.send("tolo, bad word, forbidden!! **VERY FORBIDDEN**.", {
+			message.channel.send("**tolo**, bad word, forbidden!! **VERY FORBIDDEN**.", {
 			tts:false
 			})
 	}
@@ -59,7 +59,7 @@ client.on('message' , (message) => {
 			})
 	}
 	if (input.indexOf('@EVERYONE') != -1 ) {
-			message.channel.send("no tag, you dick, annoying!", {
+			message.channel.send("no tag, you **DICK**, annoying!", {
 			tts:false
 			})
 	}
