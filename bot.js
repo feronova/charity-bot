@@ -7,29 +7,29 @@ client.on('ready', () => {
 
 client.on('message' , (message) => {
 	var input = message.content.toUpperCase();
-	if (input == '!tes') {
-			message.channel.send("tis!", {
+	if (input == 'wow') {
+			message.channel.send("Shocking truth!", {
 			tts:false
 			})
 	}
 	
 	if (input == 'BACOT') {
-			message.channel.send("ngentot", {
+			message.channel.send("bacot, bad word, forbidden!", {
 			tts:false
 			})
 	}
 	if (input == 'BACOD') {
-			message.channel.send("ngentod", {
+			message.channel.send("bacod, bad word, forbidden!", {
 			tts:false
 			})
 	}
 	if (input == 'BCT') {
-			message.channel.send("ntot", {
+			message.channel.send("bct, bad word, forbidden!", {
 			tts:false
 			})
 	}
 	if (input == 'BCD') {
-			message.channel.send("ntod", {
+			message.channel.send("bcd, bad word, forbidden!", {
 			tts:false
 			})
 	}
@@ -39,7 +39,7 @@ client.on('message' , (message) => {
 			})
 	}
 	if (input == 'DED' ) {
-			message.channel.send("ded is **FORBIDDEN**.", {
+			message.channel.send("ded, bad word, forbidden!! **VERY FORBIDDEN**.", {
 			tts:false
 			})
 	}
@@ -49,17 +49,17 @@ client.on('message' , (message) => {
 			})
 	}
 	if (input == 'TOLO' ) {
-			message.channel.send("tolo is **FORBIDDEN**.", {
+			message.channel.send("tolo, bad word, forbidden!! **VERY FORBIDDEN**.", {
 			tts:false
 			})
 	}
 	if (input == 'GAJELAS' ) {
-			message.channel.send("gajelas is **FORBIDDEN**.", {
+			message.channel.send("gajelas, bad word, forbidden!! **VERY FORBIDDEN**.", {
 			tts:false
 			})
 	}
 	if (input.indexOf('@EVERYONE') != -1 ) {
-			message.channel.send("woi bangsat jangan tag2 orang gajelas ccd kasian yg invis mode", {
+			message.channel.send("no tag, you dick, annoying!", {
 			tts:false
 			})
 	}
