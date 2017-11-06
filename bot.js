@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    	console.log('Bot is ready!');
 	client.user.setGame("pinDICK XD");
 });
 client.on('message' , (message) => {
