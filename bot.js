@@ -4,7 +4,6 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('Bot is ready!');
 });
-client.setGame("pinDICK XD");
 client.User.setGame("pinDICK XD");
 client.on('message' , (message) => {
 	var input = message.content.toUpperCase();
