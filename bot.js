@@ -58,7 +58,7 @@ client.on('message' , (message) => {
 			})
 	}
 	if (input.indexOf('@EVERYONE') != -1 ) {
-			message.channel.send("no tag, you DICK, annoying!", {
+			message.channel.send("@Quelang#0131, you DICK, annoying!", {
 			tts:false
 			})
 	}
