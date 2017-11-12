@@ -58,7 +58,7 @@ client.on('message' , (message) => {
 			})
 	}
 	if (input.indexOf('@EVERYONE') != -1 ) {
-			message.channel.send("=bigtextd EVERYONE", {
+			message.channel.send("asw lu kang tag gajelas", {
 			tts:false
 			})
 	}
