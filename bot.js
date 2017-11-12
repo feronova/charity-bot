@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 client.on('message' , (message) => {
 	var input = message.content.toUpperCase();
-	if (input.indexOf('WOW') != -1 {
+	if (input.indexOf('WOW') != -1 ) {
 			message.channel.send("Shocking truth!", {
 			tts:false
 			})
