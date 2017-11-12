@@ -58,7 +58,7 @@ client.on('message' , (message) => {
 			})
 	}
 	if (input.indexOf('@EVERYONE') != -1 ) {
-			message.channel.send("@everyone is ded", {
+			message.channel.send("=bigtextd EVERYONE", {
 			tts:false
 			})
 	}
