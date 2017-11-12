@@ -6,34 +6,34 @@ client.on('ready', () => {
 });
 client.on('message' , (message) => {
 	var input = message.content.toUpperCase();
-	if (input == 'WOW') {
+	if (input.indexOf('WOW') != -1 {
 			message.channel.send("Shocking truth!", {
 			tts:false
 			})
 	}
 	
 	if (input == 'BACOT') {
-			message.channel.send("bacot, bad word, forbidden!", {
+			message.channel.send("ngentot", {
 			tts:false
 			})
 	}
 	if (input == 'BACOD') {
-			message.channel.send("bacod, bad word, forbidden!", {
+			message.channel.send("ngentod", {
 			tts:false
 			})
 	}
 	if (input == 'BCT') {
-			message.channel.send("bct, bad word, forbidden!", {
+			message.channel.send("ntot", {
 			tts:false
 			})
 	}
 	if (input == 'BCD') {
-			message.channel.send("bcd, bad word, forbidden!", {
+			message.channel.send("ntod", {
 			tts:false
 			})
 	}
-	if (input == 'LOL XD' ) {
-			message.channel.send("LoL XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
+	if (input.indexOf('LOL XD') != -1 ) {
+			message.channel.send("XD = lambang ketawa yang biasa dipakai otaku (tapi orang biasa juga suka)", {
 			tts:false
 			})
 	}
@@ -47,13 +47,13 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input == 'TOLO' ) {
-			message.channel.send("tolo, bad word, forbidden!!", {
+	if (input.indexOf('TOLO') != -1 ) {
+			message.channel.send("t*lo kata terlarang!", {
 			tts:false
 			})
 	}
-	if (input == 'GAJELAS' ) {
-			message.channel.send("gajelas, bad word, forbidden!!", {
+	if (input.indexOf('GAJELAS') != -1 ) {
+			message.channel.send("g*jelas kata terlarang!", {
 			tts:false
 			})
 	}
