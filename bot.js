@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-	client.user.setPresence({ game: { name: 'Reality', type: 0 } });
+	client.user.setPresence({ game: { name: 'Duel 3 kotak', type: 0 } });
 });
 client.on('message' , (message) => {
 	var input = message.content.toUpperCase();
