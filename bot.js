@@ -7,28 +7,28 @@ client.on('ready', () => {
 client.on('message' , (message) => {
 	var input = message.content.toUpperCase();
 	if (input.indexOf('WOW') != -1 ) {
-			message.channel.send("Shocking truth!", {
+			message.channel.send("terkejut!", {
 			tts:false
 			})
 	}
 	
 	if (input == 'BACOT') {
-			message.channel.send("ngentot", {
+			message.channel.send("SP", {
 			tts:false
 			})
 	}
 	if (input == 'BACOD') {
-			message.channel.send("ngentod", {
+			message.channel.send("SP", {
 			tts:false
 			})
 	}
 	if (input == 'BCT') {
-			message.channel.send("ntot", {
+			message.channel.send("SP", {
 			tts:false
 			})
 	}
 	if (input == 'BCD') {
-			message.channel.send("ntod", {
+			message.channel.send("SP", {
 			tts:false
 			})
 	}
@@ -52,13 +52,8 @@ client.on('message' , (message) => {
 			tts:false
 			})
 	}
-	if (input.indexOf('GAJELAS') != -1 ) {
-			message.channel.send("g*jelas kata terlarang!", {
-			tts:false
-			})
-	}
 	if (input.indexOf('@EVERYONE') != -1 ) {
-			message.channel.send("asw lu kang tag gajelas", {
+			message.channel.send("tag everyone dapet SP 1", {
 			tts:false
 			})
 	}
