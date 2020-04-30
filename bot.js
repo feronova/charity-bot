@@ -13,12 +13,12 @@ client.on('message' , (message) => {
 	}
 	
 	if (input == 'BACOT') {
-			message.channel.send("SP", {
+			message.channel.send("SP 1", {
 			tts:false
 			})
 	}
 	if (input == 'BACOD') {
-			message.channel.send("SP", {
+			message.channel.send("SP 1", {
 			tts:false
 			})
 	}
